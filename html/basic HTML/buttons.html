@@ -1,0 +1,81 @@
+
+<style>
+  .subscribe-button {
+    background-color:rgb(189, 0, 0); /*r = red g = green b = blue*/
+    color:white;
+    border:none;
+    margin-right: 8px; /*adds space to the right of the button*/;
+    height: 36px; /*height of the button*/
+    width: 105px; /*width of the button*/
+    border-radius: 2px; /*rounds the corners of the button*/
+    cursor: pointer; /*changes the cursor to a pointer when hovering over the button*/
+    transition: opacity 1s; /*adds a smooth transition when the opacity changes*/
+     }
+
+    .subscribe-button:hover
+    {
+      opacity: 0.5; /*changes the opacity of the button when the mouse hovers over it*/
+    }
+
+    .subscribe-button:active{
+      opacity: 0.4;
+    }
+  .join-button {
+
+    background-color: white;
+    color:blue;
+    border-style: solid;
+    border-width:1px ;
+    margin-right: 8px; /*adds space to the right of the button*/
+    border-color: rgb(175, 182, 189);
+    height: 36px; /*height of the button*/
+    width: 80px; /*width of the button*/
+    border-radius: 5px; /*rounds the corners of the button*/
+    cursor: pointer; /*changes the cursor to a pointer when hovering over the button*/
+    transition: background-color 0.7s /*adds a smooth transition when the background-color changes*/ 
+     , color 0.5s; /*adds a smooth transition when the color changes*/  
+    
+  }
+  .join-button:hover{
+    background-color:blue;
+    color: white;
+     
+  }
+  .join-button:active{
+    opacity:0.4;
+  }
+
+  .tweet-button{
+    background-color:rgb(63, 143, 180);
+    color:white;
+    height: 36px; /*height of the button*/
+    width: 90px;
+    border-radius: 20px;
+    border-width: 1px;
+    border: none;
+    cursor: pointer; /*changes the cursor to a pointer when hovering over the button*/  
+    font-size: 15px ;
+    font-weight: bold;
+    transition: box-shadow 0.5s; /*adds a smooth transition when the box-shadow changes*/ 
+    
+   
+  }
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.16); /*adds a shadow to the button*/
+
+  }
+</style>
+
+
+<button class = "subscribe-button">
+SUBSCRIBE
+</button>
+
+<button class = "join-button">
+JOIN
+</button>
+
+
+<button class = "tweet-button">
+Tweet
+</button>
